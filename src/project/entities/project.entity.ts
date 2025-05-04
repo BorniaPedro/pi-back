@@ -19,10 +19,10 @@ export class Project {
     @Column({type: 'varchar', length: 20})
     state: string;
 
-    @Column({type: 'varchar', length: 20})
+    @Column({type: 'varchar', length: 20, nullable: true})
     climateZone: string;
 
-    @Column({type: 'varchar', length: 20})
+    @Column({type: 'varchar', length: 20, nullable: true})
     ecologicalZone: string;
 
     @Column({type: 'date'})
