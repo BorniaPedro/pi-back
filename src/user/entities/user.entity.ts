@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
+import { Project } from "src/project/entities/project.entity";
+import { Column, Entity, OneToMany, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity({ name: 'users' })
 export class User {
@@ -11,5 +12,8 @@ export class User {
 
     @Column({ type: 'varchar', length: 50, unique: true })
     email: string;
+
+    @OneToMany(() => Project, project => project.owner)
+    projects: Project[]
 
 }
