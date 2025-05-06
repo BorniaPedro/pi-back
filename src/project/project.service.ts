@@ -4,47 +4,46 @@ import { UpdateProjectDto } from './dto/update-project.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Project } from './entities/project.entity';
 import { Repository } from 'typeorm';
-import { NotFoundError } from 'rxjs';
 
 @Injectable()
 export class ProjectService {
-    constructor(@InjectRepository(Project) private readonly projectsRepository: Repository<Project>){
-    }
+  constructor(
+    @InjectRepository(Project)
+    private readonly projectsRepository: Repository<Project>,
+  ) {}
 
   async create(createProjectDto: CreateProjectDto) {
+    const project = this.projectsRepository.create(createProjectDto);
 
-    const user = this.projectsRepository.create(createProjectDto)
-
-    return await this.projectsRepository.save(user) 
+    return await this.projectsRepository.save(project);
   }
 
   async findAll() {
-    return await this.projectsRepository.find()
+    return await this.projectsRepository.find();
   }
 
   async findOne(id: number) {
-    return await this.projectsRepository.findOne({
-      where: {id}
-    });
+    const project = await this.projectsRepository.findOneBy({ id });
+
+    if (!project) {
+      throw new NotFoundException(
+        'Project not found. Please insert a valid ID!',
+      );
+    }
+
+    return project;
   }
 
   async update(id: number, updateProjectDto: UpdateProjectDto) {
+    await this.findOne(id);
 
-    const project = await this.findOne(id)
+    await this.projectsRepository.update(id, updateProjectDto);
 
-    if(!project){
-      throw new NotFoundException("Project not found. Please insert a valid ID!")
-    }
-
-    return await this.projectsRepository.update(id, updateProjectDto);
+    return await this.projectsRepository.findOneBy({ id });
   }
 
-  remove(id: number) {
-    const project = this.findOne(id)
-
-    if(!project){
-      throw new NotFoundException("Project not found. Please insert a valid ID!")
-    }
+  async remove(id: number) {
+    await this.findOne(id);
 
     return this.projectsRepository.delete(id);
   }
