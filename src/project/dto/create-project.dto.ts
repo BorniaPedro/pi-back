@@ -17,6 +17,16 @@ export class CreateProjectDto {
   @MaxLength(20)
   state: string;
 
+  @IsString()
+  @IsNotEmpty()
+  @MaxLength(20)
+  climateZone: string
+
+  @IsString()
+  @IsNotEmpty()
+  @MaxLength(20)
+  ecologicalZone: string
+
   @IsDate()
   @Type(() => Date)
   startPeriod: Date;
