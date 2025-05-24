@@ -1,5 +1,4 @@
-import { User } from 'src/user/entities/user.entity';
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity({ name: 'projects' })
 export class Project {
@@ -8,9 +7,6 @@ export class Project {
 
   @Column({ type: 'varchar', length: 50 })
   name: string;
-
-  @ManyToOne(() => User, (user) => user.projects)
-  owner: User;
 
   @Column({ type: 'varchar', length: 20 })
   location: string;
@@ -25,8 +21,8 @@ export class Project {
   ecologicalZone: string;
 
   @Column({ type: 'date' })
-  startPeriod: Date;
+  startPeriod: string;
 
   @Column({ type: 'date' })
-  endPeriod: Date;
+  endPeriod: string;
 }
