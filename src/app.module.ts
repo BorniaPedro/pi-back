@@ -3,9 +3,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { join } from 'path';
-import { UserModule } from './user/user.module';
 import { ProjectModule } from './project/project.module';
+import { StratumModule } from './stratum/stratum.module';
 
 @Module({
   imports: [
@@ -21,13 +20,13 @@ import { ProjectModule } from './project/project.module';
         port: configService.get<number>('DB_PORT'),
         username: configService.get<string>('DB_USERNAME'),
         password: configService.get<string>('DB_PASSWORD'),
-        database: configService.get<string>('DB_DATABASE'),
-        entities: [join(process.cwd(), 'dist/**/*.entity.js')],
-        synchronize: true
-      })
+        database: configService.get<string>('DB_NAME'),
+        autoLoadEntities: true,
+        synchronize: true,
+      }),
     }),
-    UserModule,
     ProjectModule,
+    StratumModule,
   ],
   controllers: [AppController],
   providers: [AppService],

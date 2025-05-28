@@ -1,4 +1,4 @@
-import { IsString, IsNotEmpty, IsDate, MaxLength } from 'class-validator';
+import { IsString, IsNotEmpty, IsDate, MaxLength, IsDateString } from 'class-validator';
 import { Type } from 'class-transformer';
 
 export class CreateProjectDto {
@@ -27,11 +27,11 @@ export class CreateProjectDto {
   @MaxLength(20)
   ecologicalZone: string
 
-  @IsDate()
-  @Type(() => Date)
-  startPeriod: Date;
+  @IsDateString()
+  @Type(() => String)
+  startPeriod: string;
 
-  @IsDate()
-  @Type(() => Date)
-  endPeriod: Date;
+  @IsDateString()
+  @Type(() => String)
+  endPeriod: string;
 }
