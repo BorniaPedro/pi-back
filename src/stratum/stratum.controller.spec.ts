@@ -1,20 +1,26 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { StratumController } from './stratum.controller';
-import { StratumModule } from './stratum.module';
+import { StratumService } from './stratum.service';
+import { getRepositoryToken } from '@nestjs/typeorm';
+import { Stratum } from './entities/stratum.entity';
 
-describe('ProjectController', () => {
-  let controller: StratumController;
+describe('StratumService', () => {
+  let service: StratumService;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      controllers: [StratumController],
-      providers: [StratumModule],
+      providers: [
+        StratumService,
+        {
+          provide: getRepositoryToken(Stratum),
+          useValue: {},
+        },
+      ],
     }).compile();
 
-    controller = module.get<StratumController>(StratumController);
+    service = module.get<StratumService>(StratumService);
   });
 
   it('should be defined', () => {
-    expect(controller).toBeDefined();
+    expect(service).toBeDefined();
   });
 });

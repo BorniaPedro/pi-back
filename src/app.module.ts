@@ -26,7 +26,7 @@ import { StratumModule } from './stratum/stratum.module';
       }),
     }),
     ProjectModule,
-    StratumModule
+    StratumModule,
   ],
   controllers: [AppController],
   providers: [AppService],
