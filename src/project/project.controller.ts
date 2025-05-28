@@ -8,6 +8,7 @@ import {
   UsePipes,
   ValidationPipe,
   Put,
+  BadRequestException,
 } from '@nestjs/common';
 import { ProjectService } from './project.service';
 import { CreateProjectDto } from './dto/create-project.dto';
@@ -52,4 +53,13 @@ export class ProjectController {
   remove(@Param('id') id: string) {
     return this.projectService.remove(+id);
   }
+
+@Get('/stratum/:id')
+getStratunsByProject(@Param('id') id: string) {
+  const projectId = Number(id);
+  if (isNaN(projectId)) {
+    throw new BadRequestException('Project ID must be a valid number');
+  }
+  return this.projectService.getStratunsByProject(projectId);
+}
 }

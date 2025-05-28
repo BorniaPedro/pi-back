@@ -22,17 +22,21 @@ export class StratumService {
     return await this.stratumRepository.find();
   }
 
-  async findOne(id: number) {
-    const stratum = await this.stratumRepository.findOneBy({ id });
-
-    if (!stratum) {
-      throw new NotFoundException(
-        'Stratum not found. Please insert a valid ID!',
-      );
-    }
-
-    return stratum;
+async findOne(id: number) {
+  if (typeof id !== 'number' || isNaN(id)) {
+    throw new NotFoundException('Invalid ID! ID must be a number.');
   }
+
+  const stratum = await this.stratumRepository.findOneBy({ id });
+
+  if (!stratum) {
+    throw new NotFoundException(
+      'Stratum not found. Please insert a valid ID!',
+    );
+  }
+
+  return stratum;
+}
 
   async update(id: number, updateStratumDto: UpdateStratumDto) {
     await this.findOne(id);

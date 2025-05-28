@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Stratum } from 'src/stratum/entities/stratum.entity';
+import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity({ name: 'projects' })
 export class Project {
@@ -25,4 +26,7 @@ export class Project {
 
   @Column({ type: 'date' })
   endPeriod: string;
+
+  @OneToMany(() => Stratum, (stratum) => stratum.project)
+  stratums: Stratum[];
 }

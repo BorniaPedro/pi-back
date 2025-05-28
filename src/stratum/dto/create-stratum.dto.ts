@@ -1,4 +1,4 @@
-import { IsString, IsNotEmpty, MaxLength } from 'class-validator';
+import { IsString, IsNotEmpty, MaxLength, IsNumber } from 'class-validator';
 
 export class CreateStratumDto {
   @IsString()
@@ -15,4 +15,9 @@ export class CreateStratumDto {
   @IsNotEmpty()
   @MaxLength(50)
   landUseProject: string;
+
+  @IsNumber()
+  @IsNotEmpty()
+  projectId: number
+
 }
