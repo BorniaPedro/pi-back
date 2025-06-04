@@ -1,0 +1,94 @@
+{
+    "Tropical rainforest": {
+        "Above-ground biomass": "NA",
+        "R": "0.37"
+    },
+    "Tropical moist deciduous forest": {
+        "Above-ground biomass <125 tonnes ha⁻¹": {
+            "R": "0.20"
+        },
+        "Above-ground biomass >125 tonnes ha⁻¹": {
+            "R": "0.24"
+        }
+    },
+    "Tropical dry forest": {
+        "Above-ground biomass <20 tonnes ha⁻¹": {
+            "R": "0.56"
+        },
+        "Above-ground biomass >20 tonnes ha⁻¹": {
+            "R": "0.28"
+        }
+    },
+    "Tropical shrubland": {
+        "Above-ground biomass": "NA",
+        "R": "0.40"
+    },
+    "Tropical mountain systems": {
+        "Above-ground biomass": "NA",
+        "R": "0.27"
+    },
+    "Subtropical humid forest": {
+        "Above-ground biomass <125 tonnes ha⁻¹": {
+            "R": "0.20"
+        },
+        "Above-ground biomass >125 tonnes ha⁻¹": {
+            "R": "0.24"
+        }
+    },
+    "Subtropical dry forest": {
+        "Above-ground biomass <20 tonnes ha⁻¹": {
+            "R": "0.56"
+        },
+        "Above-ground biomass >20 tonnes ha⁻¹": {
+            "R": "0.28"
+        }
+    },
+    "Subtropical steppe": {
+        "Above-ground biomass": "NA",
+        "R": "0.32"
+    },
+    "Subtropical mountain systems": {
+        "Above-ground biomass": "NA",
+        "R": ""
+    },
+    "Temperate oceanic forest, Temperate continental forest, Temperate mountain systems": {
+        "Conifers above-ground biomass <50 tonnes ha⁻¹": {
+            "R": "0.40"
+        },
+        "Conifers above-ground biomass 50-150 tonnes ha⁻¹": {
+            "R": "0.29"
+        },
+        "Conifers above-ground biomass >150 tonnes ha⁻¹": {
+            "R": "0.20"
+        },
+        "Quercus spp. above-ground biomass >70 tonnes ha⁻¹": {
+            "R": "0.30"
+        },
+        "Eucalyptus spp. above-ground biomass <50 tonnes ha⁻¹": {
+            "R": "0.44"
+        },
+        "Eucalyptus spp. above-ground biomass 50-150 tonnes ha⁻¹": {
+            "R": "0.28"
+        },
+        "Eucalyptus spp. above-ground biomass >150 tonnes ha⁻¹": {
+            "R": "0.20"
+        },
+        "Other broadleaf above-ground biomass <75 tonnes ha⁻¹": {
+            "R": "0.46"
+        },
+        "Other broadleaf above-ground biomass 75-150 tonnes ha⁻¹": {
+            "R": "0.23"
+        },
+        "Other broadleaf above-ground biomass >150 tonnes ha⁻¹": {
+            "R": "0.24"
+        }
+    },
+    "Boreal coniferous forest, Boreal tundra woodland, Boreal mountain systems": {
+        "Above-ground biomass <75 tonnes ha⁻¹": {
+            "R": "0.39"
+        },
+        "Above-ground biomass >75 tonnes ha⁻¹": {
+            "R": "0.24"
+        }
+    }
+}

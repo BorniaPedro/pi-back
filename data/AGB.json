@@ -1,0 +1,188 @@
+{
+    "Tropical rainforest": {
+        "Africa": {
+            "AGBmax": 510
+        },
+        "North and South America": {
+            "AGBmax": 400
+        },
+        "Asia (continental)": {
+            "AGBmax": 680
+        },
+        "Asia (insular)": {
+            "AGBmax": 520
+        }
+    },
+    "Tropical moist deciduous forest": {
+        "Africa": {
+            "AGBmax": 430
+        },
+        "North and South America": {
+            "AGBmax": 280
+        },
+        "Asia (continental)": {
+            "AGBmax": 560
+        },
+        "Asia (insular)": {
+            "AGBmax": 290
+        }
+    },
+    "Tropical dry forest": {
+        "Africa": {
+            "AGBmax": 130
+        },
+        "North and South America": {
+            "AGBmax": 410
+        },
+        "Asia (continental)": {
+            "AGBmax": 160
+        },
+        "Asia (insular)": {
+            "AGBmax": 160
+        }
+    },
+    "Tropical shrubland": {
+        "Africa": {
+            "AGBmax": 200
+        },
+        "North and South America": {
+            "AGBmax": 90
+        },
+        "Asia (continental)": {
+            "AGBmax": 60
+        },
+        "Asia (insular)": {
+            "AGBmax": 70
+        }
+    },
+    "Tropical mountain systems": {
+        "Africa": {
+            "AGBmax" :190
+        },
+        "North and South America": {
+            "AGBmax": 230
+        },
+        "Asia (continental)": {
+            "AGBmax": 220
+        },
+        "Asia (insular)": {
+            "AGBmax": 360
+        }
+    },
+    "Subtropical humid forest": {
+        "North and South America": {
+            "AGBmax": 280
+        },
+        "Asia (continental)": {
+            "AGBmax": 560
+        },
+        "Asia (insular)": {
+            "AGBmax": 290
+        },
+        "Africa": {
+            "AGBmax": 140
+        }
+    },
+    "Subtropical dry forest": {
+        "North and South America": {
+            "AGBmax": 410
+        },
+        "Asia (continental)": {
+            "AGBmax": 160
+        },
+        "Asia (insular)": {
+            "AGBmax": 160
+        },
+        "Africa": {
+            "AGBmax": 140
+        }
+    },
+    "Subtropical steppe": {
+        "North and South America": {
+            "AGBmax": 90
+        },
+        "Asia (continental)": {
+            "AGBmax": 60
+        },
+        "Asia (insular)": {
+            "AGBmax": 70
+        },
+        "Africa": {
+            "AGBmax": 200
+        }
+    },
+    "Subtropical mountain systems": {
+        "North and South America": {
+            "AGBmax": 230
+        },
+        "Asia (continental)": {
+            "AGBmax": 220
+        },
+        "Asia (insular)": {
+            "AGBmax": 360
+        },
+        "Africa": {
+            "AGBmax": 50
+        }
+    },
+    "Temperate oceanic forest": {
+        "Europe": {
+            "AGBmax": 120
+        },
+        "North America": {
+            "AGBmax": 1200
+        },
+        "New Zealand": {
+            "AGBmax": 430
+        },
+        "South America": {
+            "AGBmax": 310
+        }
+    },
+    "Temperate continental forest": {
+        "Asia, Europe (<20 y)": {
+            "AGBmax": 20
+        },
+        "Asia, Europe (>20 y)": {
+            "AGBmax": 130
+        },
+        "North and South America (<20 y)": {
+            "AGBmax": 200
+        },
+        "North and South America (>20 y)": {
+            "AGBmax": 180
+        }
+    },
+    "Temperate mountain systems": {
+        "Asia, Europe (<20 y)": {
+            "AGBmax": 600
+        },
+        "Asia, Europe (>20 y)": {
+            "AGBmax": 110
+        },
+        "North and South America (<20 y)": {
+            "AGBmax": 280
+        }
+    },
+    "Boreal coniferous forest": {
+        "Asia, Europe, North America": {
+            "AGBmax": 90
+        }
+    },
+    "Boreal tundra woodland": {
+        "Asia, Europe, North America (<20 y)": {
+            "AGBmax": 4
+        },
+        "Asia, Europe, North America (>20 y)": {
+            "AGBmax": 20
+        }
+    },
+    "Boreal mountain systems": {
+        "Asia, Europe, North America (<20 y)": {
+            "AGBmax": 15
+        },
+        "Asia, Europe, North America (>20 y)": {
+            "AGBmax": 50
+        }
+    }
+}   
