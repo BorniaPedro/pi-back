@@ -1,11 +1,12 @@
 import * as request from 'supertest';
 import { Test, TestingModule } from '@nestjs/testing';
-import { INestApplication } from '@nestjs/common';
+import { INestApplication, ValidationPipe } from '@nestjs/common';
 import { AppModule } from '../src/app.module';
 
 describe('Stratums e2e', () => {
   let app: INestApplication;
   let createdId: number;
+  let createdProjectId: number;
 
   beforeAll(async () => {
     const moduleFixture: TestingModule = await Test.createTestingModule({
@@ -13,7 +14,38 @@ describe('Stratums e2e', () => {
     }).compile();
 
     app = moduleFixture.createNestApplication();
+    app.useGlobalPipes(new ValidationPipe({
+      whitelist: true,
+      forbidNonWhitelisted: true,
+      transform: true,
+    }));
     await app.init();
+
+    const projectDto = {
+      name: 'Projeto Sustentável Alpha',
+      location: 'São Paulo',
+      state: 'SP',
+      climateZone: 'Tropical',
+      ecologicalZone: 'Mata Atlântica',
+      startPeriod: '2025-06-01',
+      endPeriod: '2025-12-31',
+    };
+
+    try {
+      const response = await request(app.getHttpServer())
+        .post('/project')
+        .send(projectDto)
+        .expect(201);
+
+      createdProjectId = response.body.id;
+
+      if (!createdProjectId) {
+        throw new Error('Failed to create project or extract its ID in beforeAll.');
+      }
+    } catch (error) {
+      console.error('Failed to create project in beforeAll:', error.response?.body || error.message);
+      throw error;
+    }
   });
 
   afterAll(async () => {
@@ -27,7 +59,8 @@ describe('Stratums e2e', () => {
         .send({
           name: 'stratum test',
           landUseBaseline: "test land use baseline",
-          landUseProject: "test land use project"
+          landUseProject: "test land use project",
+          projectId: createdProjectId,
         })
         .expect(201);
 
@@ -53,7 +86,8 @@ describe('Stratums e2e', () => {
         id: createdId,
         name: 'stratum test',
         landUseBaseline: "test land use baseline",
-        landUseProject: "test land use project"
+        landUseProject: "test land use project",
+        projectId: createdProjectId
       });
     });
   });
