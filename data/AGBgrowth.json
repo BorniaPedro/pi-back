@@ -1,360 +1,344 @@
 {
-    "Tropical rain forest": {
-        "Africa (≤20 y)": {
-            "AGBgrowth": "10",
-            "Reference": "IPCC, 2003"
+    "categories": [
+        {
+            "name": "Tropical rain forest",
+            "regions": [
+                {
+                    "region": "Africa",
+                    "age": "≤20 y",
+                    "value": 10
+                },
+                {
+                    "region": "Africa",
+                    "age": ">20 y",
+                    "value": 3.1
+                },
+                {
+                    "region": "North America",
+                    "age": null,
+                    "value": 0.9
+                },
+                {
+                    "region": "South America",
+                    "age": "≤20 y",
+                    "value": 11
+                },
+                {
+                    "region": "South America",
+                    "age": ">20 y",
+                    "value": 3.1
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": "≤20 y",
+                    "value": 7.0
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": ">20 y",
+                    "value": 2.2
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": "≤20 y",
+                    "value": 13
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": ">20 y",
+                    "value": 3.4
+                }
+            ]
         },
-        "Africa (>20 y)": {
-            "AGBgrowth": "3.1 (2.3-3.8)" ,
-            "Reference": "IPCC, 2003"
+        {
+            "name": "Tropical moist deciduous forest",
+            "regions": [
+                {
+                    "region": "Africa",
+                    "age": "≤20 y",
+                    "value": 5.0
+                },
+                {
+                    "region": "Africa",
+                    "age": ">20 y",
+                    "value": 1.3
+                },
+                {
+                    "region": "North America",
+                    "age": "≤20 y",
+                    "value": 7.0
+                },
+                {
+                    "region": "North America",
+                    "age": ">20 y",
+                    "value": 2.0
+                },
+                {
+                    "region": "South America",
+                    "age": "≤20 y",
+                    "value": 7.0
+                },
+                {
+                    "region": "South America",
+                    "age": ">20 y",
+                    "value": 2.0
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": "≤20 y",
+                    "value": 9.0
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": ">20 y",
+                    "value": 2.0
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": "≤20 y",
+                    "value": 11.0
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": ">20 y",
+                    "value": 3.0
+                }
+            ]
         },
-        "North America": {
-            "AGBgrowth": "0.9-18",
-            "Reference": "Clark et al., 2003; Hughes et al., 1999"
+        {
+            "name": "Tropical dry forest",
+            "regions": [
+                {
+                    "region": "Africa",
+                    "age": "≤20 y",
+                    "value": 2.4
+                },
+                {
+                    "region": "Africa",
+                    "age": ">20 y",
+                    "value": 1.8
+                },
+                {
+                    "region": "North America",
+                    "age": "≤20 y",
+                    "value": 4.0
+                },
+                {
+                    "region": "North America",
+                    "age": ">20 y",
+                    "value": 1
+                },
+                {
+                    "region": "South America",
+                    "age": "≤20 y",
+                    "value": 4.0
+                },
+                {
+                    "region": "South America",
+                    "age": ">20 y",
+                    "value": 1
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": "≤20 y",
+                    "value": 6.0
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": ">20 y",
+                    "value": 1.5
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": "≤20 y",
+                    "value": 7.0
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": ">20 y",
+                    "value": 2.0
+                }
+            ]
         },
-        "South America (≤20 y)": {
-            "AGBgrowth": "11",
-            "Reference": "Feldpausch et al., 2004"
+        {
+            "name": "Tropical shrubland",
+            "regions": [
+                {
+                    "region": "Africa",
+                    "age": "≤20 y",
+                    "value": 0.2
+                },
+                {
+                    "region": "Africa",
+                    "age": ">20 y",
+                    "value": 0.9
+                },
+                {
+                    "region": "North America",
+                    "age": "≤20 y",
+                    "value": 4.0
+                },
+                {
+                    "region": "North America",
+                    "age": ">20 y",
+                    "value": 1
+                },
+                {
+                    "region": "South America",
+                    "age": "≤20 y",
+                    "value": 4.0
+                },
+                {
+                    "region": "South America",
+                    "age": ">20 y",
+                    "value": 1
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": "≤20 y",
+                    "value": 5.0
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": ">20 y",
+                    "value": 1.3
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": "≤20 y",
+                    "value": 2.0
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": ">20 y",
+                    "value": 1.0
+                }
+            ]
         },
-        "South America (>20 y)": {
-            "AGBgrowth": "3.1 (1.5-5.5)",
-            "Reference": "Malhi et al., 2004"
+        {
+            "name": "Tropical mountain systems",
+            "regions": [
+                {
+                    "region": "Africa",
+                    "age": "≤20 y",
+                    "value": 2.0
+                },
+                {
+                    "region": "Africa",
+                    "age": ">20 y",
+                    "value": 1.0
+                },
+                {
+                    "region": "North America",
+                    "age": "≤20 y",
+                    "value": 1.8
+                },
+                {
+                    "region": "North America",
+                    "age": ">20 y",
+                    "value": 0.4
+                },
+                {
+                    "region": "South America",
+                    "age": "≤20 y",
+                    "value": 1.8
+                },
+                {
+                    "region": "South America",
+                    "age": ">20 y",
+                    "value": 0.4
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": "≤20 y",
+                    "value": 1.0
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": ">20 y",
+                    "value": 0.5
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": "≤20 y",
+                    "value": 3.0
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": ">20 y",
+                    "value": 1.0
+                }
+            ]
         },
-        "Asia (continental ≤20 y)": {
-            "AGBgrowth": "7.0 (3.0-11.0)",
-            "Reference": "IPCC, 2003"
+        {
+            "name": "Subtropical humid forest",
+            "regions": [
+                {
+                    "region": "North America",
+                    "age": "≤20 y",
+                    "value": 7.0
+                },
+                {
+                    "region": "North America",
+                    "age": ">20 y",
+                    "value": 2.0
+                },
+                {
+                    "region": "South America",
+                    "age": "≤20 y",
+                    "value": 7.0
+                },
+                {
+                    "region": "South America",
+                    "age": ">20 y",
+                    "value": 2.0
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": "≤20 y",
+                    "value": 9.0
+                },
+                {
+                    "region": "Asia (continental)",
+                    "age": ">20 y",
+                    "value": 2.0
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": "≤20 y",
+                    "value": 11.0
+                },
+                {
+                    "region": "Asia (insular)",
+                    "age": ">20 y",
+                    "value": 3.0
+                }
+            ]
         },
-        "Asia (continental >20 y)": {
-            "AGBgrowth": "2.2 (1.3-3.0)",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular ≤20 y)": {
-            "AGBgrowth": "13",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular >20 y)": {
-            "AGBgrowth": "3.4",
-            "Reference": "IPCC, 2003"
+        {
+            "name": "Subtropical dry forest",
+            "regions": [
+                {
+                    "region": "Africa",
+                    "age": "≤20 y",
+                    "value": 2.4
+                },
+                {
+                    "region": "Africa",
+                    "age": ">20 y",
+                    "value": 1.8
+                },
+                {
+                    "region": "North America",
+                    "age": "≤20 y",
+                    "value": 4.0
+                },
+                {
+                    "region": "South America",
+                    "age": "≤20 y",
+                    "value": 4.0
+                }
+            ]
         }
-    },
-    "Tropical moist deciduous forest": {
-        "Africa (≤20 y)": {
-            "AGBgrowth": 5.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Africa (>20 y)": {
-            "AGBgrowth": 1.3,
-            "Reference": "Harmand et al., 2004"
-        },
-        "North and South America (≤20 y)": {
-            "AGBgrowth": 7.0,
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (>20 y)": {
-            "AGBgrowth": 2.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental ≤20 y)": {
-            "AGBgrowth": 9.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental >20 y)": {
-            "AGBgrowth": 2.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular ≤20 y)": {
-            "AGBgrowth": 11.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular >20 y)": {
-            "AGBgrowth": 3.0,
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Tropical dry forest": {
-        "Africa (≤20 y)": {
-            "AGBgrowth": "2.4 (2.3-2.5)",
-            "Reference": "IPCC, 2003"
-        },
-        "Africa (>20 y)": {
-            "AGBgrowth": "1.8 (0.6-3.0)",
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (≤20 y)": {
-            "AGBgrowth": 4.0,
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (>20 y)": {
-            "AGBgrowth": 1.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental ≤20 y)": {
-            "AGBgrowth": 6.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental >20 y)": {
-            "AGBgrowth": 1.5,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular ≤20 y)": {
-            "AGBgrowth": 7.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular >20 y)": {
-            "AGBgrowth": 2.0,
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Tropical shrubland": {
-        "Africa (≤20 y)": {
-            "AGBgrowth": "0.2-0.7",
-            "Reference": "Nygård et al., 2004"
-        },
-        "Africa (>20 y)": {
-            "AGBgrowth": "0.9 (0.2-1.6)",
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (≤20 y)": {
-            "AGBgrowth": 4.0,
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (>20 y)": {
-            "AGBgrowth": 1.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental ≤20 y)": {
-            "AGBgrowth": 5.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental >20 y)": {
-            "AGBgrowth": "1.3 (1.0-2.2)",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular ≤20 y)": {
-            "AGBgrowth": 2.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular >20 y)": {
-            "AGBgrowth": 1.0,
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Tropical mountain systems": {
-        "Africa (≤20 y)": {
-            "AGBgrowth": "2.0-5.0",
-            "Reference": "IPCC, 2003"
-        },
-        "Africa (>20 y)": {
-            "AGBgrowth": "1.0-1.5",
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (≤20 y)": {
-            "AGBgrowth": "1.8-5.0",
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (>20 y)": {
-            "AGBgrowth": "0.4-1.4",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental ≤20 y)": {
-            "AGBgrowth": "1.0-5.0",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental >20 y)": {
-            "AGBgrowth": "0.5-1.0",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular ≤20 y)": {
-            "AGBgrowth": "3.0-12",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular >20 y)": {
-            "AGBgrowth": "1.0-3.0",
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Subtropical humid forest": {
-        "North and South America (≤20 y)": {
-            "AGBgrowth": 7.0,
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (>20 y)": {
-            "AGBgrowth": 2.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental ≤20 y)": {
-            "AGBgrowth": 9.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental >20 y)": {
-            "AGBgrowth": 2.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular ≤20 y)": {
-            "AGBgrowth": 11,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular >20 y)": {
-            "AGBgrowth": 3.0,
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Subtropical dry forest": {
-        "Africa (≤20 y)": {
-            "AGBgrowth": "2.4 (2.3-2.5)",
-            "Reference": "IPCC, 2003"
-        },
-        "Africa (>20 y)": {
-            "AGBgrowth": "1.8 (0.6-3.0)",
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (≤20 y)": {
-            "AGBgrowth": 4.0,
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (>20 y)": {
-            "AGBgrowth": 1.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental ≤20 y)": {
-            "AGBgrowth": 6.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental >20 y)": {
-            "AGBgrowth": 1.5,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular ≤20 y)": {
-            "AGBgrowth": 7.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular >20 y)": {
-            "AGBgrowth": 2.0,
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Subtropical steppe": {
-        "Africa (≤20 y)": {
-            "AGBgrowth": "1.2 (0.8-1.5)",
-            "Reference": "IPCC, 2003"
-        },
-        "Africa (>20 y)": {
-            "AGBgrowth": "0.9 (0.2-1.6)",
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (≤20 y)": {
-            "AGBgrowth": 4.0,
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (>20 y)": {
-            "AGBgrowth": 1.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental ≤20 y)": {
-            "AGBgrowth": 5.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental >20 y)": {
-            "AGBgrowth": "1.3 (1.0-2.2)",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular ≤20 y)": {
-            "AGBgrowth": 2.0,
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular >20 y)": {
-            "AGBgrowth": 1.0,
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Subtropical mountain systems": {
-        "Africa (≤20 y)": {
-            "AGBgrowth": "2.0-5.0",
-            "Reference": "IPCC, 2003"
-        },
-        "Africa (>20 y)": {
-            "AGBgrowth": "1.0-1.5",
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (≤20 y)": {
-            "AGBgrowth": "1.8-5.0",
-            "Reference": "IPCC, 2003"
-        },
-        "North and South America (>20 y)": {
-            "AGBgrowth": "0.4-1.4",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental ≤20 y)": {
-            "AGBgrowth": "1.0-5.0",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (continental >20 y)": {
-            "AGBgrowth": "0.5-1.0",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular ≤20 y)": {
-            "AGBgrowth": "3.0-12",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia (insular >20 y)": {
-            "AGBgrowth": "1.0-3.0",
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Temperate oceanic forest": {
-        "Europe": {
-            "AGBgrowth": 2.3,
-            "Reference": "IPCC, 2003"
-        },
-        "North America": {
-            "AGBgrowth": "15 (1.2-105)",
-            "Reference": "Hessl et al., 2004"
-        },
-        "New Zealand": {
-            "AGBgrowth": "3.5 (3.2-3.8)",
-            "Reference": "Coomes et al., 2002"
-        },
-        "South America": {
-            "AGBgrowth": "2.4-8.9",
-            "Reference": "Echevarria and Lara, 2004"
-        }
-    },
-    "Temperate continental forest": {
-        "Asia, Europe, North America (≤20 y)": {
-            "AGBgrowth": "4.0 (0.5-8.0)",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia, Europe, North America (>20 y)": {
-            "AGBgrowth": "4.0 (0.5-7.5)",
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Temperate mountain systems": {
-        "Asia, Europe, North America (≤20 y)": {
-            "AGBgrowth": "3.0 (0.5-6.0)",
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Boreal coniferous forest": {
-        "Asia, Europe, North America": {
-            "AGBgrowth": "0.1-2.1",
-            "Reference": "Gower et al., 2001"
-        }
-    },
-    "Boreal tundra woodland": {
-        "Asia, Europe, North America": {
-            "AGBgrowth": "0.4 (0.2-0.5)",
-            "Reference": "IPCC, 2003"
-        }
-    },
-    "Boreal mountain systems": {
-        "Asia, Europe, North America (≤20 y)": {
-            "AGBgrowth": "1.0-1.1",
-            "Reference": "IPCC, 2003"
-        },
-        "Asia, Europe, North America (>20 y)": {
-            "AGBgrowth": "1.1-1.5",
-            "Reference": "IPCC, 2003"
-        }
-    }   
+    ]
 }
