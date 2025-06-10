@@ -1,7 +1,7 @@
 {
     "categories": [
         {
-            "name": "Tropical rain forest",
+            "name": "tropical rain forest",
             "regions": [
                 {
                     "region": "Africa",
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "name": "Tropical moist deciduous forest",
+            "name": "tropical moist deciduous forest",
             "regions": [
                 {
                     "region": "Africa",
@@ -106,7 +106,7 @@
             ]
         },
         {
-            "name": "Tropical dry forest",
+            "name": "tropical dry forest",
             "regions": [
                 {
                     "region": "Africa",
@@ -161,7 +161,7 @@
             ]
         },
         {
-            "name": "Tropical shrubland",
+            "name": "tropical shrubland",
             "regions": [
                 {
                     "region": "Africa",
@@ -216,7 +216,7 @@
             ]
         },
         {
-            "name": "Tropical mountain systems",
+            "name": "tropical mountain systems",
             "regions": [
                 {
                     "region": "Africa",
@@ -271,7 +271,7 @@
             ]
         },
         {
-            "name": "Subtropical humid forest",
+            "name": "subtropical humid forest",
             "regions": [
                 {
                     "region": "North America",
@@ -316,7 +316,7 @@
             ]
         },
         {
-            "name": "Subtropical dry forest",
+            "name": "subtropical dry forest",
             "regions": [
                 {
                     "region": "Africa",
