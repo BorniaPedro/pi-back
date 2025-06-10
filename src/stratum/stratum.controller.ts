@@ -52,4 +52,20 @@ export class StratumController {
   remove(@Param('id') id: string) {
     return this.stratumService.remove(+id);
   }
+
+  @Get('/biomass/agbgrowth/:name')
+  getAgbGrowth(@Param('name') name: string){
+    const data = require('../../data/AGBgrowth.json'); // Importa o json de agbGrowth
+    const category = data.categories.find(cat => cat.name === name)
+
+    if(!category){
+      return { error: 'Category not found!'}
+    }
+
+    const southAmericaValues = category.regions
+    .filter(region => region.region === 'South America')
+    .map(region => region.value)
+
+    return southAmericaValues
+  }
 }
