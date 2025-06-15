@@ -18,6 +18,12 @@ export class CreateStratumDto {
 
   @IsNumber()
   @IsNotEmpty()
-  projectId: number
+  projectId: number;
+
+  @IsNumber()
+  AGBstock: number;
+
+  @IsNumber()
+  AGBgrowth: number;
 
 }
