@@ -21,12 +21,6 @@ export class CreateStratumDto {
   projectId: number;
 
   @IsNumber()
-  AGBstock: number;
-
-  @IsNumber()
-  AGBgrowth: number;
-
-  @IsNumber()
   @IsOptional()
   agbStockBaseline?: number;
 
@@ -36,7 +30,7 @@ export class CreateStratumDto {
 
   @IsNumber()
   @IsOptional()
-  agbMaxStockProject?: number;
+  agbStockProject?: number;
 
   @IsNumber()
   @IsOptional()
