@@ -28,6 +28,53 @@ export class StratumController {
   create(@Body() createStratumDto: CreateStratumDto) {
     return this.stratumService.create(createStratumDto);
   }
+    @Get('/biomass/agbgrowth/:name')
+  getAgbGrowth(@Param('name') name: string){
+    const data = require('../../data/AGBgrowth.json');
+    const category = data.categories.find(cat => cat.name === name)
+
+    if(!category){
+      return { error: 'Category not found!'}
+    }
+
+    const southAmericaValues = category.regions
+    .filter(region => region.region === 'South America')
+    .map(region => region.value)
+
+    return southAmericaValues
+  }
+
+  @Get('/biomass/agb/:name')
+  getAgb(@Param('name') name: string){
+    const data = require('../../data/AGB.json'); 
+    const category = data.categories.find(cat => cat.name === name)
+
+    if(!category){
+      return { error: 'Category not found!'}
+    }
+
+    const southAmericaValues = category.regions
+    .filter(region => region.region === 'South America')
+    .map(region => region.value)
+
+    return southAmericaValues
+  }
+  @Get('/biomass/agbbgb/:name')
+  getAgbBgb(@Param('name') name: string) {
+    const data = require('../../data/AGB-BGB.json');
+    const category = data.categories.find((cat: any) => cat.name === name);
+
+    if (!category) {
+      return { error: 'Category not found!' };
+    }
+
+    // Retorna apenas os valores de 'value' das regiões 'South America' ou 'NA' como inteiros
+    const values = category.regions
+      .filter((region: any) => region.region === 'South America' || region.region === 'NA')
+      .map((region: any) => parseFloat(region.value));
+
+    return values;
+  }
 
   @Get()
   findAll() {
@@ -52,4 +99,6 @@ export class StratumController {
   remove(@Param('id') id: string) {
     return this.stratumService.remove(+id);
   }
+
+
 }

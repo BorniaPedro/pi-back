@@ -21,4 +21,19 @@ export class Stratum {
   @ManyToOne(() => Project, (project) => project.stratums)
   @JoinColumn({ name: 'projectId' })
   project: Project;
+
+  @Column({ type: 'numeric', nullable: true, name: 'agb_stock_baseline' })
+  agbStockBaseline: number;
+
+  @Column({ type: 'numeric', nullable: true, name: 'agb_growth_baseline' })
+  agbGrowthBaseline: number;
+
+  @Column({ type: 'numeric', nullable: true, name: 'agb_stock_project' })
+  agbStockProject: number;
+
+  @Column({ type: 'numeric', nullable: true, name: 'agb_growth_project' })
+  agbGrowthProject: number;
+
+  @Column({ type: 'numeric', nullable: true, name: 'bgb_to_agb_ratio' })
+  bgbToAgbRatio: number;
 }

@@ -1,4 +1,4 @@
-import { IsString, IsNotEmpty, MaxLength, IsNumber } from 'class-validator';
+import { IsString, IsNotEmpty, MaxLength, IsNumber, IsOptional } from 'class-validator';
 
 export class CreateStratumDto {
   @IsString()
@@ -18,6 +18,35 @@ export class CreateStratumDto {
 
   @IsNumber()
   @IsNotEmpty()
-  projectId: number
+  projectId: number;
 
+  @IsNumber()
+  AGBstock: number;
+
+  @IsNumber()
+  AGBgrowth: number;
+
+  @IsNumber()
+  @IsOptional()
+  agbStockBaseline?: number;
+
+  @IsNumber()
+  @IsOptional()
+  agbGrowthBaseline?: number;
+
+  @IsNumber()
+  @IsOptional()
+  agbMaxStockProject?: number;
+
+  @IsNumber()
+  @IsOptional()
+  agbGrowthProject?: number;
+
+  @IsNumber()
+  @IsOptional()
+  bgbToAgbRatio?: number;
+
+  @IsNumber()
+  @IsOptional()
+  yearsToAgbMaxStockProject?: number;
 }
