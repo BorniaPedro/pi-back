@@ -38,7 +38,7 @@ export class CreateStratumDto {
 
   @IsNumber()
   @IsOptional()
-  bgbToAgbRatio?: number;
+  agbToBgbRatio?: number;
 
   @IsNumber()
   @IsOptional()

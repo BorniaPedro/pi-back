@@ -35,7 +35,7 @@ export class Stratum {
   agbGrowthProject: number;
 
   @Column({ type: 'numeric', nullable: true, name: 'bgb_to_agb_ratio' })
-  bgbToAgbRatio: number;
+  agbToBgbRatio: number;
 
   @Column({ type: 'numeric', nullable: true})
   yearsToAgbMaxStock: number

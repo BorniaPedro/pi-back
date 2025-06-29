@@ -28,7 +28,7 @@ export class StratumController {
   create(@Body() createStratumDto: CreateStratumDto) {
     return this.stratumService.create(createStratumDto);
   }
-    @Get('/biomass/agbgrowth/:name')
+  @Get('/biomass/agbgrowth/:name')
   getAgbGrowth(@Param('name') name: string){
     const data = require('../../data/AGBgrowth.json');
     const category = data.categories.find(cat => cat.name === name)
@@ -74,21 +74,6 @@ export class StratumController {
       .map((region: any) => parseFloat(region.value));
 
     return values;
-  }
-
-  @Get('/biomass/years/:name')
-  getYears(@Param('name') name: string) {
-    const agbMax = this.getAgb(name)
-    const agbGrowth = this.getAgbGrowth(name)
-
-    if(!agbMax || !agbGrowth){
-      return { error: 'Erro ao calcular os anos!'}
-    }
-
-    const years = Math.floor(agbMax/agbGrowth)
-
-    return years
-
   }
 
   @Get()
