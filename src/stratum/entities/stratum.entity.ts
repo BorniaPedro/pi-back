@@ -18,7 +18,9 @@ export class Stratum {
   @Column()
   projectId: number;
 
-  @ManyToOne(() => Project, (project) => project.stratums)
+  @ManyToOne(() => Project, (project) => project.stratums, {
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'projectId' })
   project: Project;
 
