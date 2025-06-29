@@ -76,6 +76,21 @@ export class StratumController {
     return values;
   }
 
+  @Get('/biomass/years/:name')
+  getYears(@Param('name') name: string) {
+    const agbMax = this.getAgb(name)
+    const agbGrowth = this.getAgbGrowth(name)
+
+    if(!agbMax || !agbGrowth){
+      return { error: 'Erro ao calcular os anos!'}
+    }
+
+    const years = Math.floor(agbMax/agbGrowth)
+
+    return years
+
+  }
+
   @Get()
   findAll() {
     return this.stratumService.findAll();

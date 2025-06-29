@@ -40,9 +40,6 @@ export class Stratum {
   @Column({ type: 'numeric', nullable: true})
   yearsToAgbMaxStock: number
 
-  @Column({ type: 'varchar', nullable: true, length: 50 })
-  soilType: string
-
   @Column({ type: 'numeric', nullable: true})
   SOCref: number
 

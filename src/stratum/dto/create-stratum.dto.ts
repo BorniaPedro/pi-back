@@ -43,4 +43,36 @@ export class CreateStratumDto {
   @IsNumber()
   @IsOptional()
   yearsToAgbMaxStockProject?: number;
+
+  @IsNumber()
+  @IsOptional()
+  yearsToAgbMaxStock?: number
+
+  @IsNumber()
+  @IsOptional()
+  SOCref?: number
+
+  @IsNumber()
+  @IsOptional()
+  flu?: number
+
+  @IsNumber()
+  @IsOptional()
+  fi?: number
+
+  @IsNumber()
+  @IsOptional()
+  SOCbaseline?: number
+
+  @IsNumber()
+  @IsOptional()
+  SOCmaxProject?: number
+
+  @IsNumber()
+  @IsOptional()
+  AnnualSOCchange?: number
+
+  @IsNumber()
+  @IsOptional()
+  yearsToSOCmaxProject?: number
 }
