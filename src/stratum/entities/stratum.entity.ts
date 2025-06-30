@@ -37,5 +37,29 @@ export class Stratum {
   agbGrowthProject: number;
 
   @Column({ type: 'numeric', nullable: true, name: 'bgb_to_agb_ratio' })
-  bgbToAgbRatio: number;
+  agbToBgbRatio: number;
+
+  @Column({ type: 'numeric', nullable: true})
+  yearsToAgbMaxStock: number
+
+  @Column({ type: 'numeric', nullable: true})
+  SOCref: number
+
+  @Column({ type: 'numeric', nullable: true})
+  flu: number
+
+  @Column({ type: 'numeric', nullable: true})
+  fi: number
+
+  @Column({ type: 'numeric', nullable: true})
+  SOCbaseline: number
+
+  @Column({ type: 'numeric', nullable: true})
+  SOCmaxProject: number
+
+  @Column({ type: 'numeric', nullable: true})
+  AnnualSOCchange: number
+
+  @Column({ type: 'numeric', nullable: true})
+  yearsToSOCmaxProject: number
 }
