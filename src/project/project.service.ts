@@ -47,4 +47,15 @@ export class ProjectService {
 
     return this.projectsRepository.delete(id);
   }
+  async getStratunsByProject(id: number) {
+
+    const project = await this.projectsRepository.findOne({
+      where: {id},
+      relations: ['stratums'],
+    })
+    if(!project){
+      throw new NotFoundException('Projeto não encontrado')
+    }
+    return project.stratums
+  }
 }

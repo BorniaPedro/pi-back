@@ -1,0 +1,143 @@
+{
+    "categories": [
+        {
+            "name": "tropical rain forest",
+            "regions": [
+                { "region": "Africa", "value": 510 },
+                { "region": "North America", "value": 400 },
+                { "region": "South America", "value": 400 },
+                { "region": "Asia (continental)", "value": 680 },
+                { "region": "Asia (insular)", "value": 520 }
+            ]
+        },
+        {
+            "name": "tropical moist deciduous forest",
+            "regions": [
+                { "region": "Africa", "value": 430 },
+                { "region": "North America", "value": 280 },
+                { "region": "South America", "value": 280 },
+                { "region": "Asia (continental)", "value": 560 },
+                { "region": "Asia (insular)", "value": 290 }
+            ]
+        },
+        {
+            "name": "tropical dry forest",
+            "regions": [
+                { "region": "Africa", "value": 130 },
+                { "region": "North America", "value": 410 },
+                { "region": "South America", "value": 410 },
+                { "region": "Asia (continental)", "value": 160 },
+                { "region": "Asia (insular)", "value": 160 }
+            ]
+        },
+        {
+            "name": "tropical shrubland",
+            "regions": [
+                { "region": "Africa", "value": 200 },
+                { "region": "North America", "value": 90 },
+                { "region": "South America", "value": 90 },
+                { "region": "Asia (continental)", "value": 60 },
+                { "region": "Asia (insular)", "value": 70 }
+            ]
+        },
+        {
+            "name": "tropical mountain systems",
+            "regions": [
+                { "region": "Africa", "value": 190 },
+                { "region": "North America", "value": 230 },
+                { "region": "South America", "value": 230 },
+                { "region": "Asia (continental)", "value": 220 },
+                { "region": "Asia (insular)", "value": 360 }
+            ]
+        },
+        {
+            "name": "subtropical humid forest",
+            "regions": [
+                { "region": "North America", "value": 280 },
+                { "region": "South America", "value": 280 },
+                { "region": "Asia (continental)", "value": 560 },
+                { "region": "Asia (insular)", "value": 290 },
+                { "region": "Africa", "value": 140 }
+            ]
+        },
+        {
+            "name": "subtropical dry forest",
+            "regions": [
+                { "region": "North America", "value": 410 },
+                { "region": "South America", "value": 410 },
+                { "region": "Asia (continental)", "value": 160 },
+                { "region": "Asia (insular)", "value": 160 },
+                { "region": "Africa", "value": 140 }
+            ]
+        },
+        {
+            "name": "subtropical steppe",
+            "regions": [
+                { "region": "North America", "value": 90 },
+                { "region": "South America", "value": 90 },
+                { "region": "Asia (continental)", "value": 60 },
+                { "region": "Asia (insular)", "value": 70 },
+                { "region": "Africa", "value": 200 }
+            ]
+        },
+        {
+            "name": "subtropical mountain systems",
+            "regions": [
+                { "region": "North America", "value": 230 },
+                { "region": "South America", "value": 230 },
+                { "region": "Asia (continental)", "value": 220 },
+                { "region": "Asia (insular)", "value": 360 },
+                { "region": "Africa", "value": 50 }
+            ]
+        },
+        {
+            "name": "temperate oceanic forest",
+            "regions": [
+                { "region": "Europe", "value": 120 },
+                { "region": "North America", "value": 1200 },
+                { "region": "New Zealand", "value": 430 },
+                { "region": "South America", "value": 310 }
+            ]
+        },
+        {
+            "name": "temperate continental forest",
+            "regions": [
+                { "region": "Asia, Europe (<20 y)", "value": 20 },
+                { "region": "Asia, Europe (>20 y)", "value": 130 },
+                { "region": "North America (<20 y)", "value": 200 },
+                { "region": "South America (<20 y)", "value": 200 },
+                { "region": "North America (>20 y)", "value": 180 },
+                { "region": "South America (>20 y)", "value": 180 }
+            ]
+        },
+        {
+            "name": "temperate mountain systems",
+            "regions": [
+                { "region": "Asia, Europe (<20 y)", "value": 600 },
+                { "region": "Asia, Europe (>20 y)", "value": 110 },
+                { "region": "North America (<20 y)", "value": 280 },
+                { "region": "South America (<20 y)", "value": 280 }
+            ]
+        },
+        {
+            "name": "boreal coniferous forest",
+            "regions": [
+                { "region": "Asia, Europe, North America", "value": 90 }
+            ]
+        },
+        {
+            "name": "boreal tundra woodland",
+            "regions": [
+                { "region": "Asia, Europe, North America (<20 y)", "value": 4 },
+                { "region": "Asia, Europe, North America (>20 y)", "value": 20 }
+            ]
+        },
+        {
+            "name": "boreal mountain systems",
+            "regions": [
+                { "region": "Asia, Europe, North America (<20 y)", "value": 15 },
+                { "region": "Asia, Europe, North America (>20 y)", "value": 50 }
+            ]
+        }
+    ]
+}

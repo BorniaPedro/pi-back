@@ -1,0 +1,83 @@
+{
+    "Polar Moist/Dry (Px - undiff)": {
+      "High activity clay soils (HAC)": "59",
+      "Low activity clay soils (LAC)": "NA",
+      "Sandy soils (SAN)": "27",
+      "Spodic soils (POD)": "NO",
+      "Volcanic soils (VOL)": "NA",
+      "Wetland soils (WET)": "NA"
+    },
+    "Boreal Moist/Dry (Bx - undiff)": {
+      "High activity clay soils (HAC)": "63 ± 18% (35)",
+      "Low activity clay soils (LAC)": "NA",
+      "Sandy soils (SAN)": "10 ± 39% (4)",
+      "Spodic soils (POD)": "117 ± 90% (3)",
+      "Volcanic soils (VOL)": "20 ± 90% (4)",
+      "Wetland soils (WET)": "116 ± 65% (6)"
+    },
+    "Cool temperate dry (C2)": {
+      "High activity clay soils (HAC)": "43 ± 8% (7)",
+      "Low activity clay soils (LAC)": "33 ± 90% (3)",
+      "Sandy soils (SAN)": "13 ± 33% (10)",
+      "Spodic soils (POD)": "NO",
+      "Volcanic soils (VOL)": "20 ± 90% (4)",
+      "Wetland soils (WET)": "87 ± 90% (3)"
+    },
+    "Cool temperate moist (C1)": {
+      "High activity clay soils (HAC)": "81 ± 5% (334)",
+      "Low activity clay soils (LAC)": "76 ± 51% (6)",
+      "Sandy soils (SAN)": "51 ± 13% (106)",
+      "Spodic soils (POD)": "128 ± 14% (45)",
+      "Volcanic soils (VOL)": "136 ± 14% (28)",
+      "Wetland soils (WET)": "128 ± 13% (42)"
+    },
+    "Warm temperate dry (W2)": {
+      "High activity clay soils (HAC)": "24 ± 5% (781)",
+      "Low activity clay soils (LAC)": "19 ± 16% (41)",
+      "Sandy soils (SAN)": "10 ± 5% (338)",
+      "Spodic soils (POD)": "NO",
+      "Volcanic soils (VOL)": "84 ± 65% (10)",
+      "Wetland soils (WET)": "74 ± 17% (6)"
+    },
+    "Warm temperate moist (W1)": {
+      "High activity clay soils (HAC)": "64 ± 5% (489)",
+      "Low activity clay soils (LAC)": "55 ± 8% (183)",
+      "Sandy soils (SAN)": "36 ± 23% (39)",
+      "Spodic soils (POD)": "143 ± 30% (9)",
+      "Volcanic soils (VOL)": "138 ± 12% (42)",
+      "Wetland soils (WET)": "135 ± 28% (28)"
+    },
+    "Tropical dry (T4)": {
+      "High activity clay soils (HAC)": "21 ± 5% (554)",
+      "Low activity clay soils (LAC)": "19 ± 10% (135)",
+      "Sandy soils (SAN)": "9 ± 9% (164)",
+      "Spodic soils (POD)": "NA",
+      "Volcanic soils (VOL)": "50 ± 90% (4)",
+      "Wetland soils (WET)": "22 ± 17% (32)"
+    },
+    "Tropical moist (T3)": {
+      "High activity clay soils (HAC)": "40 ± 7% (226)",
+      "Low activity clay soils (LAC)": "38 ± 5% (326)",
+      "Sandy soils (SAN)": "27 ± 12% (76)",
+      "Spodic soils (POD)": "NA",
+      "Volcanic soils (VOL)": "70 ± 90% (5)",
+      "Wetland soils (WET)": "68 ± 17% (55)"
+    },
+    "Tropical wet (T2)": {
+      "High activity clay soils (HAC)": "60 ± 8% (137)",
+      "Low activity clay soils (LAC)": "52 ± 6% (271)",
+      "Sandy soils (SAN)": "46 ± 20% (43)",
+      "Spodic soils (POD)": "NA",
+      "Volcanic soils (VOL)": "77 ± 27% (14)",
+      "Wetland soils (WET)": "49 ± 19% (33)"
+    },
+    "Tropical montane (T1)": {
+      "High activity clay soils (HAC)": "51 ± 10% (114)",
+      "Low activity clay soils (LAC)": "44 ± 11% (84)",
+      "Sandy soils (SAN)": "52 ± 34% (11)",
+      "Spodic soils (POD)": "NA",
+      "Volcanic soils (VOL)": "96 ± 31% (10)",
+      "Wetland soils (WET)": "82 ± 50% (12)"
+    }
+  }
+  
