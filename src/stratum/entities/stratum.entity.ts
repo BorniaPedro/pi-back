@@ -52,6 +52,9 @@ export class Stratum {
   fi: number
 
   @Column({ type: 'numeric', nullable: true})
+  fmg: number
+
+  @Column({ type: 'numeric', nullable: true})
   SOCbaseline: number
 
   @Column({ type: 'numeric', nullable: true})

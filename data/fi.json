@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "name": "Input (Low)",
+      "regions": [
+        { "region": "Temperate/Boreal", "condition": "Dry", "value": 0.95, "error": "±13%" },
+        { "region": "Temperate/Boreal", "condition": "Moist", "value": 0.92, "error": "±14%" },
+        { "region": "Tropical", "condition": "Dry", "value": 0.95, "error": "±13%" },
+        { "region": "Tropical", "condition": "Moist/Wet", "value": 0.92, "error": "±14%" },
+        { "region": "Tropical Montane", "condition": null, "value": 0.94, "error": "±50%" }
+      ]
+    },
+    {
+      "name": "Input (Medium)",
+      "regions": [
+        { "region": "All", "condition": "Dry and Moist/Wet", "value": 1.00, "error": "NA" }
+      ]
+    },
+    {
+      "name": "Input (High without manure)",
+      "regions": [
+        { "region": "Temperate/Boreal", "condition": "Dry", "value": 1.04, "error": "±13%" },
+        { "region": "Temperate/Boreal", "condition": "Moist/Wet", "value": 1.11, "error": "±10%" },
+        { "region": "Tropical Montane", "condition": null, "value": 1.08, "error": "±50%" }
+      ]
+    },
+    {
+      "name": "Input (High with manure)",
+      "regions": [
+        { "region": "Temperate/Boreal and Tropical", "condition": "Dry", "value": 1.37, "error": "±12%" },
+        { "region": "Temperate/Boreal and Tropical", "condition": "Moist/Wet", "value": 1.44, "error": "±13%" },
+        { "region": "Tropical Montane", "condition": null, "value": 1.41, "error": "±50%" }
+      ]
+    },
+    {
+      "name": "Input (Grassland only, Medium)",
+      "regions": [
+        { "region": "All", "condition": "Medium", "value": 1.0, "error": "NA" }
+      ]
+    },
+    {
+      "name": "Input (Grassland only, High)",
+      "regions": [
+        { "region": "All", "condition": "High", "value": 1.11, "error": "±7%" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "Long-term cultivated",
+      "regions": [
+        { "region": "Temperate/Boreal", "condition": "Dry", "value": 0.80, "error": "±9%" },
+        { "region": "Temperate/Boreal", "condition": "Moist", "value": 0.69, "error": "±12%" },
+        { "region": "Tropical", "condition": "Dry", "value": 0.58, "error": "±61%" },
+        { "region": "Tropical", "condition": "Moist/Wet", "value": 0.48, "error": "±46%" },
+        { "region": "Tropical Montane", "condition": null, "value": 0.64, "error": "±50%" }
+      ]
+    },
+    {
+      "name": "Paddy rice",
+      "regions": [
+        { "region": "All", "condition": "Dry and Moist/Wet", "value": 1.10, "error": "±50%" }
+      ]
+    },
+    {
+      "name": "Perennial/Tree Crop",
+      "regions": [
+        { "region": "All", "condition": "Dry and Moist/Wet", "value": 1.00, "error": "±50%" }
+      ]
+    },
+    {
+      "name": "Set aside (<20 yrs)",
+      "regions": [
+        { "region": "Temperate/Boreal and Tropical", "condition": "Dry", "value": 0.93, "error": "±11%" },
+        { "region": "Temperate/Boreal and Tropical", "condition": "Moist/Wet", "value": 0.82, "error": "±17%" },
+        { "region": "Tropical Montane", "condition": null, "value": 0.88, "error": "±50%" }
+      ]
+    },
+    {
+      "name": "Grassland (permanent)",
+      "regions": [
+        { "region": "All", "condition": "All", "value": 1.0, "error": "NA" }
+      ]
+    }
+  ]
+}

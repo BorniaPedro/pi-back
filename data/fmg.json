@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "name": "Tillage - Full",
+      "regions": [
+        { "region": "All", "condition": "Dry and Moist/Wet", "value": 1.00, "error": "NA" }
+      ]
+    },
+    {
+      "name": "Tillage - Reduced",
+      "regions": [
+        { "region": "Temperate/Boreal", "condition": "Dry", "value": 1.02, "error": "±6%" },
+        { "region": "Temperate/Boreal", "condition": "Moist", "value": 1.08, "error": "±5%" },
+        { "region": "Tropical", "condition": "Dry", "value": 1.09, "error": "±9%" },
+        { "region": "Tropical", "condition": "Moist/Wet", "value": 1.15, "error": "±8%" },
+        { "region": "Tropical Montane", "condition": null, "value": 1.09, "error": "±50%" }
+      ]
+    },
+    {
+      "name": "Tillage - No-till",
+      "regions": [
+        { "region": "Temperate/Boreal", "condition": "Dry", "value": 1.10, "error": "±5%" },
+        { "region": "Temperate/Boreal", "condition": "Moist", "value": 1.15, "error": "±4%" },
+        { "region": "Tropical", "condition": "Dry", "value": 1.17, "error": "±8%" },
+        { "region": "Tropical", "condition": "Moist/Wet", "value": 1.22, "error": "±7%" },
+        { "region": "Tropical Montane", "condition": null, "value": 1.16, "error": "±50%" }
+      ]
+    },
+    {
+      "name": "Grassland - Nominally managed",
+      "regions": [
+        { "region": "All", "condition": "All", "value": 1.0, "error": "NA" }
+      ]
+    },
+    {
+      "name": "Grassland - Moderately degraded",
+      "regions": [
+        { "region": "Temperate/Boreal", "condition": "All", "value": 0.95, "error": "±13%" },
+        { "region": "Tropical", "condition": "All", "value": 0.97, "error": "±11%" },
+        { "region": "Tropical Montane", "condition": "All", "value": 0.96, "error": "±40%" }
+      ]
+    },
+    {
+      "name": "Grassland - Severely degraded",
+      "regions": [
+        { "region": "All", "condition": "All", "value": 0.7, "error": "±40%" }
+      ]
+    },
+    {
+      "name": "Grassland - Improved",
+      "regions": [
+        { "region": "Temperate/Boreal", "condition": "All", "value": 1.14, "error": "±11%" },
+        { "region": "Tropical", "condition": "All", "value": 1.17, "error": "±9%" },
+        { "region": "Tropical Montane", "condition": "All", "value": 1.16, "error": "±40%" }
+      ]
+    }
+  ]
+}
