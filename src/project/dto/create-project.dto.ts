@@ -1,4 +1,4 @@
-import { IsString, IsNotEmpty, IsDate, MaxLength, IsDateString } from 'class-validator';
+import { IsString, IsNotEmpty, IsDate, MaxLength, IsDateString, IsOptional } from 'class-validator';
 import { Type } from 'class-transformer';
 
 export class CreateProjectDto {
@@ -26,6 +26,11 @@ export class CreateProjectDto {
   @IsNotEmpty()
   @MaxLength(50)
   ecologicalZone: string
+
+  @IsString()
+  @IsOptional()
+  @MaxLength(50)
+  soilType?: string
 
   @IsDateString()
   @Type(() => String)

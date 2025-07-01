@@ -28,7 +28,7 @@ export class StratumController {
   create(@Body() createStratumDto: CreateStratumDto) {
     return this.stratumService.create(createStratumDto);
   }
-    @Get('/biomass/agbgrowth/:name')
+  @Get('/biomass/agbgrowth/:name')
   getAgbGrowth(@Param('name') name: string){
     const data = require('../../data/AGBgrowth.json');
     const category = data.categories.find(cat => cat.name === name)
