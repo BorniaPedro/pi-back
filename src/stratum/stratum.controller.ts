@@ -75,6 +75,35 @@ export class StratumController {
 
     return values;
   }
+  @Get('/soil/fi')
+  getFi() {
+    return 10;
+  }
+
+  @Get('/soil/flu/')
+  getFlu() {
+    return 10;
+  }
+
+  @Get('/soil/fmg')
+  getFmg() {
+    return 10;
+  }
+
+  @Get('/soil/socref')
+  getSocRef() {
+    return 10;
+  }
+
+  @Get('/soil/socbaseline')
+  getSocbaseline() {
+    return 10;
+  }
+
+  @Get('/soil/socmax')
+  getSocmax() {
+    return 10;
+  }
 
   @Get()
   findAll() {

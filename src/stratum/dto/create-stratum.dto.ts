@@ -62,6 +62,10 @@ export class CreateStratumDto {
 
   @IsNumber()
   @IsOptional()
+  fmg?: number
+
+  @IsNumber()
+  @IsOptional()
   SOCbaseline?: number
 
   @IsNumber()
